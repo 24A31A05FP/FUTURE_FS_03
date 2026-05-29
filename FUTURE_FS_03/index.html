@@ -1,0 +1,306 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Crumbs Bakery</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+
+    <div class="logo">🍰 Sweet Crumbs Bakery</div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Order</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+
+    <div class="hero-content">
+
+      <h1>Freshly Baked Happiness Everyday</h1>
+
+      <p>
+        Premium cakes, donuts, cupcakes and breads made with love.
+      </p>
+
+      <a href="#menu" class="btn">Explore Menu</a>
+
+    </div>
+
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+
+    <h2 class="section-title">About Us</h2>
+
+    <div class="about-container">
+
+      <img src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?q=80&w=1200&auto=format&fit=crop">
+
+      <div class="about-text">
+
+        <h3>Welcome to Sweet Crumbs Bakery</h3>
+
+        <p>
+          We create delicious bakery items using fresh ingredients and premium recipes.
+        </p>
+
+        <p>
+          From cakes to croissants, everything is baked fresh every day.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Menu -->
+  <section class="menu" id="menu">
+
+    <h2 class="section-title">Our Bakery Menu</h2>
+
+    <div class="menu-container">
+
+      <!-- Item 1 -->
+      <div class="menu-card">
+
+        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1200&auto=format&fit=crop">
+
+        <div class="menu-info">
+
+          <h3>Chocolate Cake</h3>
+
+          <p>₹299</p>
+
+        </div>
+
+      </div>
+
+      <!-- Item 2 -->
+      <div class="menu-card">
+
+        <img src="https://www.shutterstock.com/shutterstock/videos/3688182863/thumb/12.jpg?ip=x480">
+
+        <div class="menu-info">
+
+          <h3>Red Velvet Cupcake</h3>
+
+          <p>₹399</p>
+
+        </div>
+
+      </div>
+
+      <!-- Item 3 -->
+      <div class="menu-card">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKfd5ieMfQVNpRPfxsAmCameitdo0EknApiQ&s">
+
+        <div class="menu-info">
+
+          <h3>Strawberry Donut</h3>
+
+          <p>₹499</p>
+
+        </div>
+
+      </div>
+
+      <!-- Item 4 -->
+      <div class="menu-card">
+
+        <img src="https://images3.alphacoders.com/707/707520.jpg">
+
+        <div class="menu-info">
+
+          <h3>Butter Croissant</h3>
+
+          <p>₹599</p>
+
+        </div>
+
+      </div>
+
+      <!-- Item 5 -->
+      <div class="menu-card">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdOhSdSrdewAysMB2dXeANVmQ9rpuyLwwItg&s">
+
+        <div class="menu-info">
+
+          <h3>Blueberry Muffin</h3>
+
+          <p>₹699</p>
+
+        </div>
+
+      </div>
+
+      <!-- Item 6 -->
+      <div class="menu-card">
+
+        <img src="https://images.unsplash.com/photo-1509365465985-25d11c17e812?q=80&w=1200&auto=format&fit=crop"
+  alt="Cinnamon Roll">
+
+
+        <div class="menu-info">
+
+          <h3>Cinnamon Roll</h3>
+
+          <p>₹799</p>
+
+        </div>
+
+      </div>
+
+      <!-- Item 7 -->
+      <div class="menu-card">
+
+        <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?q=80&w=1200&auto=format&fit=crop">
+
+        <div class="menu-info">
+
+          <h3>Cheesecake Slice</h3>
+
+          <p>₹899</p>
+
+        </div>
+
+      </div>
+
+      <!-- Item 8 -->
+      <div class="menu-card">
+
+        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=1200&auto=format&fit=crop">
+
+        <div class="menu-info">
+
+          <h3>Fresh Bread Loaf</h3>
+
+          <p>₹999</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Contact / Order Section -->
+<section class="contact-section" id="contact">
+
+  <h2>Place Your Bakery Order</h2>
+
+  <form id="orderForm" class="order-form">
+
+    <input type="text"
+    id="customerName"
+    placeholder="Enter Your Name"
+    required>
+
+    <input type="email"
+    id="customerEmail"
+    placeholder="Enter Your Email"
+    required>
+
+    <input type="tel"
+    id="customerPhone"
+    placeholder="Enter Your Contact Number"
+    required>
+
+    <select id="menuItem" required>
+
+      <option value="">Select Menu Item</option>
+
+      <option value="299">
+  Chocolate Cake - ₹299
+</option>
+
+<option value="399">
+  Red Velvet Cupcake - ₹399
+</option>
+
+<option value="499">
+  Strawberry Donut - ₹499
+</option>
+
+<option value="599">
+  Butter Croissant - ₹599
+</option>
+
+<option value="699">
+  Blueberry Muffin - ₹699
+</option>
+
+<option value="799">
+  Cinnamon Roll - ₹799
+</option>
+
+<option value="899">
+  Cheesecake Slice - ₹899
+</option>
+
+<option value="999">
+  Fresh Bread Loaf - ₹999
+</option>
+
+    </select>
+
+    <input type="number"
+    id="itemCount"
+    placeholder="Enter Quantity"
+    min="1"
+    required>
+
+    <input type="text"
+    id="totalAmount"
+    placeholder="Total Amount"
+    readonly>
+
+    <button type="submit" class="submit-btn">
+      Submit Order
+    </button>
+
+  </form>
+
+  <!-- Order History -->
+  <div class="history-box">
+
+    <h3>Order History</h3>
+
+    <div id="orderHistory"></div>
+
+  </div>
+
+</section>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
+```
